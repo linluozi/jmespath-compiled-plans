@@ -1,0 +1,12 @@
+{
+  "small_select": 4.14,
+  "field_projection": 4.42,
+  "nested_projection": 4.63,
+  "filter_hash": 5.38,
+  "filter_plain": 3.97,
+  "flatten": 7.74,
+  "sort_by": 2.88,
+  "pipe_index": 4.47,
+  "multi_select": 4.8,
+  "functions": 2.98
+}

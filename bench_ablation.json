@@ -1,0 +1,32 @@
+{
+  "upstream": {
+    "parse_us": 13.227,
+    "search_us": 7190.0,
+    "plan_us": null
+  },
+  "armA": {
+    "parse_us": 13.589,
+    "search_us": 1359.5,
+    "plan_us": 3.141
+  },
+  "armB": {
+    "parse_us": 10.707,
+    "search_us": 1307.9,
+    "plan_us": 3.189
+  },
+  "armC": {
+    "parse_us": 9.086,
+    "search_us": 1366.9,
+    "plan_us": 3.185
+  },
+  "fork": {
+    "parse_us": 9.356,
+    "search_us": 1393.5,
+    "plan_us": 3.22
+  },
+  "noise_floor": {
+    "ratio_median": 1.019,
+    "ratio_min": 0.93,
+    "ratio_max": 1.242
+  }
+}

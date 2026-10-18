@@ -1,0 +1,47 @@
+{
+  "expression": "records[?meta.score > `50`].{id,name,top}",
+  "rows": [
+    {
+      "rows": 10,
+      "baseline_us": 33.9,
+      "optimized_us": 5.7,
+      "speedup": 5.95
+    },
+    {
+      "rows": 100,
+      "baseline_us": 320.9,
+      "optimized_us": 58.1,
+      "speedup": 5.52
+    },
+    {
+      "rows": 500,
+      "baseline_us": 1580.3,
+      "optimized_us": 291.6,
+      "speedup": 5.42
+    },
+    {
+      "rows": 1000,
+      "baseline_us": 3277.8,
+      "optimized_us": 580.4,
+      "speedup": 5.65
+    },
+    {
+      "rows": 2000,
+      "baseline_us": 6824.3,
+      "optimized_us": 1165.1,
+      "speedup": 5.86
+    },
+    {
+      "rows": 5000,
+      "baseline_us": 17222.7,
+      "optimized_us": 4127.3,
+      "speedup": 4.17
+    },
+    {
+      "rows": 10000,
+      "baseline_us": 34151.2,
+      "optimized_us": 8272.6,
+      "speedup": 4.13
+    }
+  ]
+}
